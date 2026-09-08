@@ -63,6 +63,18 @@ vcpkg_installed/
 
 # debug information files
 *.dwo
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.pdb
+/build/
+/Debug/
+/Release/
+
+# IDE metadata (keep .sln and .vcxproj if instructed to submit them)
+.vscode/
+.idea/
 
 # test output & cache
 Testing/
